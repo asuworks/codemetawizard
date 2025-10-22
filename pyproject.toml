@@ -1,0 +1,28 @@
+[project]
+name = "codemetawizard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.78.6",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+authors = [
+    { name = "asuworks", email = "asuworks@asu.edu" },
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
+dev = [
+    "ruff>=0.14.1",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/asuworks/codemetawizard"
